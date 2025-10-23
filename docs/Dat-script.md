@@ -45,14 +45,13 @@ Fonctionnalités :
 - Affiche le résultat en couleur
 - Est signé avec un certificat autosigné
 
-Extrait principal :
 ```powershell
 $kb_list = cat "C:\Users\Elif\Desktop\Brief23-10\docs\kb_list.txt"
 $Les_KB_Presente = (Get-HotFix).HotFixID
 
 foreach ($kb in $kb_list) {
     if ($Les_KB_Presente -match $kb) {
-        Write-Host "$kb est present donc intallee" -ForegroundColor Green
+        Write-Host "$kb est present donc installee" -ForegroundColor Green
     } else {
         Write-Host "$kb est absent" -ForegroundColor Red
     }
