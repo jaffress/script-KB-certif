@@ -76,6 +76,7 @@ Pour signer le script :
 New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -Subject "CN=Script_KB_elif_jaffres" -Type CodeSigningCert
 $cert = Get-ChildItem Cert:\LocalMachine\My | Where-Object { $_.Subject -eq "CN=Script_KB_elif_jaffres" }
 Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" -Certificate $cert
+Get-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" #Verif signature
 ```
 
 ---
@@ -105,3 +106,7 @@ Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 ![Certificat étape 1](images/certif1.png)
 ![Certificat étape 2](images/certif2.png)
 ![Certificat étape 3](images/certif3.png)
+
+
+### g. Verification du certificat -signature
+![Verification](images/script-signe.png)
