@@ -68,8 +68,11 @@ foreach ($kb in $kb_list) {
 - Signature : Le script est signé avec un certificat autosigné pour garantir son intégrité.
 
 ---
+## 4. Utilisation en AD
 
-## 4. Signature du script
+Pour pouvoir utiliser le script powershell en AD, La solution est, GPO (Group Policy Object) qui permet de définir des règles et des paramètres pour tous les ordinateurs et autoatiser certaine actions. Par example pour ce script, vu qu'il s'agit de mise a jours,on peut choisir de mettre un reglage comme quoi script PowerShell s’exécute automatiquement sur tous les PC du réseau à chaque démarrage.
+
+## 5. Signature du script
 
 Pour signer le script :
 ```powershell
@@ -81,7 +84,7 @@ Get-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 
 ---
 
-## 5. Captures d'écran
+## 6. Captures d'écran
 
 
 ### a. Liste de toutes les KB installées
