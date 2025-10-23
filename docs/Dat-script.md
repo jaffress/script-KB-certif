@@ -112,24 +112,24 @@ Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 
 
 ### a. Liste de toutes les KB installées
-![Liste de toutes les KB installées](images/kb-all.png)
+![Liste de kbs](images/kb-all.png)
 
 ### b. Contenu du fichier kb_list.txt
-![Contenu du fichier kb_list.txt](images/kb-list-txt.png)
+![kb_list.txt](images/kb-list-txt.png)
 
 ### c. Exécution du script et résultat
-![Exécution du script et résultat](images/exec-script.png)
+![](images/exec-script.png)
 
 ### d. Exemple de script affiché
-![Script PowerShell](images/script.png)
+![](images/script.png)
 
 ### e. Exemple de KB absentes
-![2 KB non présentes](images/2KB-PAS-PRESENT.png)
+![](images/2KB-PAS-PRESENT.png)
 
 ### f. Signature du script
-![Signature du script](images/script-signature.png)
+![](images/script-signature.png)
 
 ### g. Création du certificat (étapes)
-![Certificat étape 1](images/certif1.png)
-![Certificat étape 2](images/certif2.png)
-![Certificat étape 3](images/certif3.png)
+![](images/certif1.png)
+![](images/certif2.png)
+![](images/certif3.png)
