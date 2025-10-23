@@ -118,18 +118,18 @@ Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 ![kb_list.txt](images/kb-list-txt.png)
 
 ### c. Exécution du script et résultat
-![:](images/exec-script.png)
+![Exécution du script](images/exec-script.png)
 
 ### d. Exemple de script affiché
-![:](images/script.png)
+![Script affiché](images/script.png)
 
 ### e. Exemple de KB absentes
-![:](images/2KB-PAS-PRESENT.png)
+![KB absentes](images/2KB-PAS-PRESENT.png)
 
 ### f. Signature du script
-![:](images/script-signature.png)
+![Signature du script](images/script-signature.png)
 
 ### g. Création du certificat (étapes)
-![:](images/certif1.png)
-![:](images/certif2.png)
-![:](images/certif3.png)
+![Certificat étape 1](images/certif1.png)
+![Certificat étape 2](images/certif2.png)
+![Certificat étape 3](images/certif3.png)
