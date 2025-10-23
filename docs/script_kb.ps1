@@ -4,7 +4,7 @@
 # Procédure pour déployer sur un parc AD 
 
 # Lire des KB depuis le fichier kb_list.txt et les stocker dans une variable
-$kb_list = cat "C:\Users\Elif\Desktop\Brief23-10\kb_list.txt"
+$kb_list = cat "C:\Users\Elif\Desktop\Brief23-10\docs\kb_list.txt"
 
 # Récupérer la liste des KB installées
 $Les_KB_Presente = (Get-HotFix).HotFixID
@@ -49,4 +49,5 @@ foreach ($kb in $kb_list) {
 # Dh44jsDf79xw0PD7ovCcaEENo2CULJZL+nl9e/406tyFt6krbjP9ct5k2o7Rl+3n
 # j15LEAzyT/JrLs/HmMhKlDYlfOr7sA==
 # SIG # End signature block
+
 
