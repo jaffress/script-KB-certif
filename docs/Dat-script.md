@@ -1,7 +1,7 @@
 # Analyse des mises à jour Windows avec PowerShell
 
 ## Auteur
-Elif JAFFRS
+Elif JAFFRES
 
 ---
 
@@ -70,26 +70,7 @@ foreach ($kb in $kb_list) {
 
 ---
 
-## 4. Procédure de test
-
-1. Ouvrir PowerShell en administrateur
-2. Se placer dans le dossier du script :
-   ```powershell
-   cd C:\Users\Elif\Desktop\Brief23-10\docs
-   ```
-3. Exécuter le script :
-   ```powershell
-   .\script_kb.ps1
-   ```
-4. Si l'exécution est bloquée, autoriser temporairement :
-   ```powershell
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   .\script_kb.ps1
-   ```
-
----
-
-## 5. Déploiement sur un parc AD
+## 4. Déploiement sur un parc AD
 
 - Copier le script et kb_list.txt sur un partage réseau
 - Utiliser une GPO pour exécuter le script sur les postes
@@ -97,7 +78,7 @@ foreach ($kb in $kb_list) {
 
 ---
 
-## 6. Signature du script
+## 5. Signature du script
 
 Pour signer le script :
 ```powershell
@@ -108,7 +89,7 @@ Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 
 ---
 
-## 7. Captures d'écran
+## 6. Captures d'écran
 
 
 ### a. Liste de toutes les KB installées
