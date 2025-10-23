@@ -43,7 +43,7 @@ Fonctionnalités :
 - Lit la liste des KB depuis `kb_list.txt`
 - Récupère les KB installées avec `Get-HotFix`
 - Affiche le résultat en couleur
-- Est signé avec un certificat autosigné
+- Signé avec un certificat autosigné
 
 ```powershell
 $kb_list = cat "C:\Users\Elif\Desktop\Brief23-10\docs\kb_list.txt"
