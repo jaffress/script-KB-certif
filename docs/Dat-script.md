@@ -109,4 +109,4 @@ Get-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 
 
 ### g. Verification du certificat -signature
-![Verification](images/script-signe.png)
+![Verification script](images/script-signe.png)
