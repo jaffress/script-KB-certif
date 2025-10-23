@@ -70,12 +70,7 @@ foreach ($kb in $kb_list) {
 
 ---
 
-## 4. Déploiement sur un parc AD
-??
-
----
-
-## 5. Signature du script
+## 4. Signature du script
 
 Pour signer le script :
 ```powershell
@@ -86,7 +81,7 @@ Set-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 
 ---
 
-## 6. Captures d'écran
+## 5. Captures d'écran
 
 
 ### a. Liste de toutes les KB installées
