@@ -94,7 +94,7 @@ Get-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 ![Exécution du script](images/exec-script.png)
 
 ### d. Exemple de script affiché
-![Script affiché](images/script.png)
+![Script affiche](images/script.png)
 
 ### e. Exemple de KB absentes
 ![KB absentes](images/2KB-PAS-PRESENT.png)
@@ -108,5 +108,5 @@ Get-AuthenticodeSignature "C:\Users\Elif\Desktop\Brief23-10\docs\script_kb.ps1" 
 ![Certificat étape 3](images/certif3.png)
 
 
-### g. Verification du certificat -signature
+### h. Verification du certificat -signature
 ![verif signature](images/script-signe.png)
