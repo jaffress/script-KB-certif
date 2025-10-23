@@ -12,7 +12,7 @@ $Les_KB_Presente = (Get-HotFix).HotFixID
 # Pour chaque KB, vérifier la présence et afficher en couleur
 foreach ($kb in $kb_list) {
     if ($Les_KB_Presente -match $kb) {
-        Write-Host "$kb est present donc intallee" -ForegroundColor Green
+        Write-Host "$kb est present donc installee" -ForegroundColor Green
     } else {
         Write-Host "$kb est absent" -ForegroundColor Red
     }
@@ -49,3 +49,4 @@ foreach ($kb in $kb_list) {
 # Dh44jsDf79xw0PD7ovCcaEENo2CULJZL+nl9e/406tyFt6krbjP9ct5k2o7Rl+3n
 # j15LEAzyT/JrLs/HmMhKlDYlfOr7sA==
 # SIG # End signature block
+
