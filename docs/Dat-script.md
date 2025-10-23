@@ -71,10 +71,7 @@ foreach ($kb in $kb_list) {
 ---
 
 ## 4. Déploiement sur un parc AD
-
-- Copier le script et kb_list.txt sur un partage réseau
-- Utiliser une GPO pour exécuter le script sur les postes
-- S'assurer que la politique d'exécution PowerShell autorise les scripts signés
+??
 
 ---
 
