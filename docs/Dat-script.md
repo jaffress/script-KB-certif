@@ -11,16 +11,16 @@ Créer un script PowerShell qui :
 - Vérifie la présence de certaines mises à jour (KB) sur Windows.
 - Affiche en vert les KB présentes, en rouge les absentes.
 - Lit la liste des KB à vérifier depuis un fichier texte.
-- Est signé pour garantir son authenticité.
-- Peut être déployé sur un parc informatique (AD).
+- Signer-certificate.
+- Peut être utilise en AD.
 
 ---
 
 ## Structure du dépôt
 
-- `docs/script_kb.ps1` : Script PowerShell principal
-- `docs/kb_list.txt` : Liste des KB à vérifier
-- `images/` : Dossier contenant les captures d'écran
+- `docs/script_kb.ps1` : Script PowerShell
+- `docs/kb_list.txt` : Liste KBs 
+- `docs/images/` : Les captures d'écran
 
 ---
 
